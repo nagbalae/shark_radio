@@ -105,7 +105,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nagbalae/shark_radio/blink.c" "CMakeFiles/radio.dir/blink.c.obj" "gcc" "CMakeFiles/radio.dir/blink.c.obj.d"
+  "/home/nagbalae/shark_radio/main.c" "CMakeFiles/radio.dir/main.c.obj" "gcc" "CMakeFiles/radio.dir/main.c.obj.d"
   "/home/nagbalae/shark_radio/pico-sdk/src/common/pico_sync/critical_section.c" "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj" "gcc" "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj.d"
   "/home/nagbalae/shark_radio/pico-sdk/src/common/pico_sync/lock_core.c" "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj" "gcc" "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj.d"
   "/home/nagbalae/shark_radio/pico-sdk/src/common/pico_sync/mutex.c" "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/mutex.c.obj" "gcc" "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/mutex.c.obj.d"

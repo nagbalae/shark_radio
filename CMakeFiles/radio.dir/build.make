@@ -69,19 +69,19 @@ include CMakeFiles/radio.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/radio.dir/flags.make
 
-CMakeFiles/radio.dir/blink.c.obj: CMakeFiles/radio.dir/flags.make
-CMakeFiles/radio.dir/blink.c.obj: blink.c
-CMakeFiles/radio.dir/blink.c.obj: CMakeFiles/radio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nagbalae/shark_radio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/radio.dir/blink.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/radio.dir/blink.c.obj -MF CMakeFiles/radio.dir/blink.c.obj.d -o CMakeFiles/radio.dir/blink.c.obj -c /home/nagbalae/shark_radio/blink.c
+CMakeFiles/radio.dir/main.c.obj: CMakeFiles/radio.dir/flags.make
+CMakeFiles/radio.dir/main.c.obj: main.c
+CMakeFiles/radio.dir/main.c.obj: CMakeFiles/radio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nagbalae/shark_radio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/radio.dir/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/radio.dir/main.c.obj -MF CMakeFiles/radio.dir/main.c.obj.d -o CMakeFiles/radio.dir/main.c.obj -c /home/nagbalae/shark_radio/main.c
 
-CMakeFiles/radio.dir/blink.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/radio.dir/blink.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nagbalae/shark_radio/blink.c > CMakeFiles/radio.dir/blink.c.i
+CMakeFiles/radio.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/radio.dir/main.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nagbalae/shark_radio/main.c > CMakeFiles/radio.dir/main.c.i
 
-CMakeFiles/radio.dir/blink.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/radio.dir/blink.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nagbalae/shark_radio/blink.c -o CMakeFiles/radio.dir/blink.c.s
+CMakeFiles/radio.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/radio.dir/main.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nagbalae/shark_radio/main.c -o CMakeFiles/radio.dir/main.c.s
 
 CMakeFiles/radio.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/radio.dir/flags.make
 CMakeFiles/radio.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -704,7 +704,7 @@ CMakeFiles/radio.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cma
 
 # Object files for target radio
 radio_OBJECTS = \
-"CMakeFiles/radio.dir/blink.c.obj" \
+"CMakeFiles/radio.dir/main.c.obj" \
 "CMakeFiles/radio.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/radio.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/radio.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -754,7 +754,7 @@ radio_OBJECTS = \
 # External object files for target radio
 radio_EXTERNAL_OBJECTS =
 
-radio.elf: CMakeFiles/radio.dir/blink.c.obj
+radio.elf: CMakeFiles/radio.dir/main.c.obj
 radio.elf: CMakeFiles/radio.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 radio.elf: CMakeFiles/radio.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 radio.elf: CMakeFiles/radio.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj

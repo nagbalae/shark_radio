@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/radio.dir/blink.c.obj"
-  "CMakeFiles/radio.dir/blink.c.obj.d"
+  "CMakeFiles/radio.dir/main.c.obj"
+  "CMakeFiles/radio.dir/main.c.obj.d"
   "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj"
   "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj.d"
   "CMakeFiles/radio.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj"

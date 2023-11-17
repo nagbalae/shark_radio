@@ -194,29 +194,29 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-blink.obj: blink.c.obj
-.PHONY : blink.obj
+main.obj: main.c.obj
+.PHONY : main.obj
 
 # target to build an object file
-blink.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/radio.dir/build.make CMakeFiles/radio.dir/blink.c.obj
-.PHONY : blink.c.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/radio.dir/build.make CMakeFiles/radio.dir/main.c.obj
+.PHONY : main.c.obj
 
-blink.i: blink.c.i
-.PHONY : blink.i
+main.i: main.c.i
+.PHONY : main.i
 
 # target to preprocess a source file
-blink.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/radio.dir/build.make CMakeFiles/radio.dir/blink.c.i
-.PHONY : blink.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/radio.dir/build.make CMakeFiles/radio.dir/main.c.i
+.PHONY : main.c.i
 
-blink.s: blink.c.s
-.PHONY : blink.s
+main.s: main.c.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-blink.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/radio.dir/build.make CMakeFiles/radio.dir/blink.c.s
-.PHONY : blink.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/radio.dir/build.make CMakeFiles/radio.dir/main.c.s
+.PHONY : main.c.s
 
 pico-sdk/src/common/pico_sync/critical_section.obj: pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : pico-sdk/src/common/pico_sync/critical_section.obj
@@ -1136,9 +1136,9 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... radio"
-	@echo "... blink.obj"
-	@echo "... blink.i"
-	@echo "... blink.s"
+	@echo "... main.obj"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... pico-sdk/src/common/pico_sync/critical_section.s"

@@ -11,7 +11,7 @@ project(radio)
 pico_sdk_init()
 
 # rest of your project
-add_executable(radio blink.c)
+add_executable(radio main.c)
 
 # pull in common dependencies
 target_link_libraries(radio pico_stdlib)
