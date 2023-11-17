@@ -1,3 +1,0 @@
-/home/nagbalae/shark_radio/pioasm/CMakeFiles/pioasm.dir
-/home/nagbalae/shark_radio/pioasm/CMakeFiles/edit_cache.dir
-/home/nagbalae/shark_radio/pioasm/CMakeFiles/rebuild_cache.dir
